@@ -15,7 +15,7 @@ public class CounterController {
     private Environment env;
     @GetMapping("/")
     public String indexCounterApp() {
-        return  "Welcome to Counter App";
+        return "this is private app for test purpose only";
     }
     @GetMapping("/counter")
     public String getCounter() {
