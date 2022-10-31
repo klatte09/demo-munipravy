@@ -15,7 +15,7 @@ public class CounterController {
     private Environment env;
     @GetMapping("/")
     public String indexCounterApp() {
-        return "this is private app for test purpose only";
+        return "this app is triggere by jenkins";
     }
     @GetMapping("/counter")
     public String getCounter() {
