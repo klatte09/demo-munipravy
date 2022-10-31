@@ -15,7 +15,7 @@ public class CounterController {
     private Environment env;
     @GetMapping("/")
     public String indexCounterApp() {
-        return "this app is triggere by jenkins";
+        return "this app is running on docker imaage";
     }
     @GetMapping("/counter")
     public String getCounter() {
